@@ -1,6 +1,6 @@
 <?php
 
-class User{
+class Departamento{
 
 	private $dept_no;
 	private $dept_name;

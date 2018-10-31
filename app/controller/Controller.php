@@ -1,6 +1,6 @@
 <?php
-include_once '../model/Modelo.php';
 include_once 'Departamento.php';
+include_once '../../app/model/Model.php';
 
 class Controller extends Model{
 
@@ -11,7 +11,7 @@ $obj->dept_name=$nombre;
 
 $conectar=$this->incluir($obj);
 if ($conectar) {
-  header('location:../../view/contendido/incluir.php?Exito');
+  header('location:../../view/contenido/incluir.php?Exito');
 }
 }
 
