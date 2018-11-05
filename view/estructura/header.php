@@ -7,6 +7,6 @@
     <title></title>
   </head>
   <body>
-
+    <?php include_once 'nav.php'; ?>
     <div class="container">
       <div class="row">
